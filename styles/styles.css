@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    display: flex;
+}
+
+.extra-info {
+    font-size: 65%;
+    display: none;
+    color:rgb(255, 250, 244);
+    transition: 4s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(83, 61, 4);
+    color: orange;
+    padding: 2.5% 5%;
+    font-family: monaco, monospace;
+    font-size: 550%;
+    border-radius:75px;
+    border: 1px solid goldenrod;
+    transition: 0.5s;
+}
+
+.container:hover .extra-info{
+    display: flex;
+    justify-content: center;
+    margin: 11% auto auto auto;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+}
+
+.container:hover {
+    font-size: 565%;
+    cursor: not-allowed;
+    user-select: none;
+}
