@@ -12,12 +12,6 @@ setInterval(() => {
     document.getElementById("container").innerHTML = `${hora}`
 }, 1000)
 
-// function getRandomInt(max) {
-//     return Math.floor(Math.random() * max);
-// }
-
-// console.log(getRandomInt(3));
-
 const cont = document.querySelector(".container")
 const back = document.querySelector(".body")
 const extra = document.querySelector(".extra-info")
